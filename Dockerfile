@@ -3,4 +3,4 @@ FROM alpine
 WORKDIR /root
 COPY init.sh /root
 RUN sh init.sh
-CMD brook /usr/bin/brook -f :9999 -t DIP:DPORT
+CMD /usr/bin/brook -f :9999 -t DIP:DPORT
