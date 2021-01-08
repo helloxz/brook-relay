@@ -20,7 +20,7 @@ apk add curl
 
 #安装brook
 curl -L https://github.com/txthinking/brook/releases/download/v20210101/brook_linux_amd64 -o /usr/bin/brook
-chmod +x brook
+chmod +x /usr/bin/brook
 
 #卸载curl
 apk del curl tzdata
