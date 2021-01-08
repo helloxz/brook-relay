@@ -1,6 +1,6 @@
 #基于alpine镜像制作
 FROM alpine
 WORKDIR /root
-COPY init.sh /root
+COPY *.sh /root
 RUN sh init.sh
-CMD ["/usr/bin/brook", "relay", "-f", ":9999", "-t" ,"${DIP}:${DPORT}"]
+CMD /root/run.sh
