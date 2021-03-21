@@ -4,4 +4,5 @@ WORKDIR /root
 COPY *.sh /root/
 RUN sh init.sh
 EXPOSE 9999
+EXPOSE 9999/udp
 CMD /root/run.sh
