@@ -29,5 +29,5 @@ chmod +x /root/run.sh
 apk del curl tzdata
 
 echo '--------------------------------------'
-echo 'Brook installation success.'
+echo "Brook ${VER} installation success."
 echo '--------------------------------------'
